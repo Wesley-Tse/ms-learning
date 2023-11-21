@@ -1,0 +1,28 @@
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# Cplusplus Middleware
+*.i
+*.s
+*.o
+*.obj
+*.exe
+
+# Python Cacha
+**/__pycache__
+
+# Checkpoint Files
+*.ckpt
+*.pth
+*.onnx
+*.pb
+
+# Dataset
+**/MNIST_Data
