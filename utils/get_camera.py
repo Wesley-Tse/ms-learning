@@ -1,9 +1,9 @@
 import cv2
 
-print("start creating videocapture")
+print("create capture")
 cap = cv2.VideoCapture(0)
-print("create successfuly")
-print("press 'q' to exit")
+print("open camera successfuly")
+print("start capture, press 'q' to exit")
 while True:
     ret, frame = cap.read()
     if ret:
