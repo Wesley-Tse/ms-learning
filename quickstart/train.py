@@ -11,8 +11,8 @@ print(param_not_load)
 
 batchsize = 64
 
-train_dataset = MnistDataset('MNIST_Data/train')
-test_dataset = MnistDataset('MNIST_Data/test')
+train_dataset = MnistDataset(r'E:\datasets\MNIST_Data\train')
+test_dataset = MnistDataset(r'E:\datasets\MNIST_Data\test')
 train_dataset = datapipe(train_dataset, batchsize)
 test_dataset = datapipe(test_dataset, batchsize)
 

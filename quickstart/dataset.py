@@ -23,8 +23,8 @@ def datapipe(dataset, batch_size):
 
 if __name__ == "__main__":
 
-    train_dataset = MnistDataset('MNIST_Data/train')
-    test_dataset = MnistDataset('MNIST_Data/test')
+    train_dataset = MnistDataset(r'E:\datasets\MNIST_Data\train')
+    test_dataset = MnistDataset(r'E:\datasets\MNIST_Data\test')
     print(train_dataset.get_col_names())
 
     # Map vision transforms and batch dataset
