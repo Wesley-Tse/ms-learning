@@ -8,14 +8,31 @@
 # Local History for Visual Studio Code
 .history/
 
-# Cplusplus Middleware
-*.i
-*.s
-*.o
-*.obj
-*.exe
+# Precompiled Headers
+*.gch
+*.pch
 
-# Python Cacha
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Python Cache
 **/__pycache__
 
 # Checkpoint Files
